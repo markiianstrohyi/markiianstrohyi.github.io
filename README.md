@@ -21,7 +21,7 @@
 - Built a **multi-asset portfolio risk model** with Monte Carlo simulations 
 - Compared with **parametric and EWMA VaR models**, including backtesting  
 - Implemented **time-varying volatility** in MC using GARCH for realistic risk assessment  
-- **GitHub:** [View Project](https://github.com/markiianstrohyi/VaR-Project)
+- **GitHub:** [View Project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/blob/main/MC-GARCH.ipynb)
 
 ---
 
