@@ -9,7 +9,6 @@
 
 - **Programming & Analytics:** Python (Pandas, NumPy, SciPy, Matplotlib), SQL, Excel/VBA, Power Query  
 - **Quantitative Finance:** Monte Carlo simulations, VaR, portfolio risk modeling, time series analysis, econometrics  
-- **Data Science & ML:** Regression, ARIMA, ARMA, GARCH, EWMA volatility models, machine learning basics  
 - **Soft Skills:** Problem-solving, teamwork, effective communication, leadership
 
 ---
@@ -20,7 +19,7 @@
 **Tech Stack:** Python
 - Built a **multi-asset portfolio risk model** with Monte Carlo simulations 
 - Compared with **parametric and EWMA VaR models**, including backtesting  
-- Implemented **time-varying volatility** in MC using GARCH for realistic risk assessment  
+- Implemented **time-varying volatility** in MC simulation with GARCH(1,1)   
 - **GitHub:** [View Project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/blob/main/MC-GARCH.ipynb)
 
 ---
