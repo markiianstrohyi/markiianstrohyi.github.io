@@ -1,3 +1,8 @@
+---
+layout: default
+title: Portfolio
+---
+
 # Markiian Strohyi
 
 Master's Student in **Quantitative Finance**  
@@ -18,14 +23,14 @@ Bachelor's Degree in **Finance, International Investment & Accounting**
 ---
 
 ## Projects  
-**[View all projects →](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects)**
+**[View all projects](https://github.com/markiianstrohyi?tab=repositories)**
 
 ### Monte Carlo Value-at-Risk  
 **Tech Stack:** Python  
 - Built a multi-asset portfolio risk model using Monte Carlo simulations  
 - Backtested and compared against Parametric VaR and EWMA VaR  
 - Implemented time-varying volatility with GARCH(1,1)  
-- **[View on GitHub →](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/mc-garch)**
+- **[Go to project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/mc-garch)**
 
 ---
 
@@ -35,7 +40,7 @@ Bachelor's Degree in **Finance, International Investment & Accounting**
 - Forecasted daily realized volatility and estimated VaR/ES with rolling and walk-forward validation  
 - Backtested risk models using Kupiec, Christoffersen, and McNeil–Frey tests  
 - Showed that higher forecast accuracy doesn't guarantee better tail-risk estimation (GARCH most reliable for VaR)  
-- **[View on GitHub →](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/garch-lstm)**
+- **[Go to project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/garch-lstm)**
 
 ---
 
@@ -43,3 +48,16 @@ Bachelor's Degree in **Finance, International Investment & Accounting**
 - 📧 Email: [markiian.strohyi@gmail.com](mailto:markiian.strohyi@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/markiianstrohyi](https://www.linkedin.com/in/markiianstrohyi)  
 - 💻 GitHub: [github.com/markiianstrohyi](https://github.com/markiianstrohyi)
+```
+
+## Final File Structure:
+```
+your-repo/
+├── _config.yml
+├── _layouts/
+│   └── default.html
+├── assets/
+│   └── css/
+│       └── custom.css
+├── index.md          # ← THIS IS YOUR LANDING PAGE
+└── README.md         # ← Keep for GitHub repo display

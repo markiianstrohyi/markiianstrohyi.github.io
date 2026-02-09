@@ -11,7 +11,3 @@ social:
     - https://www.linkedin.com/in/markiianstrohyi
 plugins:
   - jekyll-seo-tag
-
-# Use README as index
-readme_index:
-  enabled: true
