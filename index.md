@@ -13,7 +13,7 @@ title: Portfolio
 ---
 
 ## Projects  
-**[View all projects](https://github.com/markiianstrohyi?tab=repositories)**
+**[View all projects](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects)**
 
 ### Monte Carlo Value-at-Risk  
 **Tech Stack:** Python  
