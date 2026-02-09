@@ -1,13 +1,15 @@
 title: Markiian Strohyi
 description: >
-  MSc in Quantitative Finance | Aspiring Quantitative Analyst | Risk Modeling & Data Science | Python, SQL, Excel
+  MSc Student in Quantitative Finance at University of Warsaw | 
+  BSc in Finance, International Investment & Accounting | 
+  Aspiring Quantitative Analyst | Risk Modeling & Data Science | Python, SQL, Excel
 theme: jekyll-theme-minimal
 show_downloads: false
 author: Markiian Strohyi
-email: markiian.strohyi@gmail.com
+email: markiianstrohyi@gmail.com
 social:
   links:
     - https://github.com/markiianstrohyi
-    - https://www.linkedin.com/in/markiianstrohyi
+    - https://www.linkedin.com/in/markiian-strohyi-a50186252/
 plugins:
   - jekyll-seo-tag

@@ -1,6 +1,12 @@
----
-layout: default
-title: Portfolio
+
+# Markiian Strohyi
+
+Master's Student in **Quantitative Finance**  
+University of Warsaw - Faculty of Economic Sciences  
+Aspiring Quantitative Analyst | Risk Modeling | Data Science  
+
+Bachelor's Degree in **Finance, International Investment & Accounting**
+
 ---
 
 ## Technical Skills
