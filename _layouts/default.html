@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   
-  <!-- SEO plugin -->
+  <!-- SEO -->
   {% seo %}
 
   <!-- Custom CSS -->
@@ -16,11 +16,9 @@
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
     <nav>
-      {% if site.social.links %}
-        {% for link in site.social.links %}
-          <a href="{{ link }}" target="_blank">{{ link | replace: "https://", "" }}</a>
-        {% endfor %}
-      {% endif %}
+      <a href="https://github.com/{{ site.social.links[0] | split: '/' | last }}" target="_blank">GitHub</a>
+      <a href="{{ site.social.links[1] }}" target="_blank">LinkedIn</a>
+      <a href="mailto:{{ site.email }}">Email</a>
     </nav>
   </header>
 
@@ -29,7 +27,7 @@
   </main>
 
   <footer>
-    <p>© {{ site.author }} {{ site.time | date: "%Y" }}</p>
+    <p>© {{ site.time | date: "%Y" }} {{ site.author }}</p>
   </footer>
 </body>
 </html>

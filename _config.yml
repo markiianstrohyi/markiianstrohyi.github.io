@@ -1,24 +1,17 @@
 title: Markiian Strohyi
-logo: /assets/img/headshot_circle.png
-
 description: >
-  Quantitative Finance MSc student focused on risk modeling, volatility forecasting,
-  and Monte Carlo simulation. Aspiring Quantitative / Risk Analyst.
-
+  MSc in Quantitative Finance | Aspiring Quantitative Analyst | Risk Modeling & Data Science | Python, SQL, Excel
 theme: jekyll-theme-minimal
 show_downloads: false
-
-# Optional but professional polish
 author: Markiian Strohyi
 email: markiian.strohyi@gmail.com
-
-# Social links (used by some themes & SEO)
 social:
-  name: Markiian Strohyi
   links:
     - https://github.com/markiianstrohyi
     - https://www.linkedin.com/in/markiianstrohyi
-
-# SEO & page metadata
 plugins:
   - jekyll-seo-tag
+
+# Use README as index
+readme_index:
+  enabled: true
