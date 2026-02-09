@@ -5,23 +5,19 @@
 
 ---
 
-## 🛠 Skills & Tools
+## 🛠 Technical Skills
 
-- **Programming & Analytics:** Python (Pandas, NumPy, SciPy, Matplotlib), SQL, Excel/VBA, Power Query  
-- **Quantitative Finance:** Monte Carlo simulations, VaR, portfolio risk modeling, time series analysis, econometrics  
-- **Soft Skills:** Problem-solving, teamwork, effective communication, leadership
-
+- **Programming & Analytics: Python (pandas, numpy, scipy, scikitlearn, tensorflow, matplotlib, seaborn), SQL, Excel, VBA  
 ---
 
-## 🚀 Projects
+## 🚀 Projects [Go to project](./projects/)
 
 ### 1. Monte Carlo Value-at-Risk
 **Tech Stack:** Python
 - Built a **multi-asset portfolio risk model** with Monte Carlo simulations 
-- Compared with **parametric and EWMA VaR models**, including backtesting  
+- Backtested and compared with **parametric and EWMA VaR models**
 - Implemented **time-varying volatility** in MC simulation with GARCH(1,1)   
-- **GitHub:** [View Project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/blob/main/MC-GARCH.ipynb)
-
+- **GitHub:** [Go to project](./projects/mc-garch/)
 ---
 
 ## 📌 About Me
@@ -32,4 +28,3 @@
 ## 📫 Contact
 - ✉️ Email: [markiian.strohyi@gmail.com](mailto:markiian.strohyi@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/markiianstrohyi](https://www.linkedin.com/in/markiianstrohyi)  
-- 🌐 Portfolio (coming soon): [markiianstrohyi.github.io](https://markiianstrohyi.github.io)
