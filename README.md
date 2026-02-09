@@ -29,12 +29,6 @@ Bachelor’s Degree in **Finance, International Investment & Accounting**
 
 ---
 
-## About Me  
-- Focused on quantitative finance, risk modeling, and data-driven decision-making  
-- Interested in portfolio risk, financial modeling, and applied machine learning  
-
----
-
 ## Contact  
 - Email: [markiian.strohyi@gmail.com](mailto:markiian.strohyi@gmail.com)  
 - LinkedIn: https://www.linkedin.com/in/markiianstrohyi  
