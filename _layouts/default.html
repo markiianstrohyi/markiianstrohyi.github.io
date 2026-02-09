@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  
+  <!-- SEO plugin -->
+  {% seo %}
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      {% if site.social.links %}
+        {% for link in site.social.links %}
+          <a href="{{ link }}" target="_blank">{{ link | replace: "https://", "" }}</a>
+        {% endfor %}
+      {% endif %}
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ site.author }} {{ site.time | date: "%Y" }}</p>
+  </footer>
+</body>
+</html>
