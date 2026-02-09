@@ -9,6 +9,6 @@ Each project has its own folder with code, notebooks, and documentation.
 Forecasts portfolio risk using Monte Carlo and GARCH(1,1) volatility.  
 [Go to project](./mc-garch)
 
-### GARCH–LSTM Ensemble: Volatility & Risk Forecasting
+### GARCH-LSTM Ensemble: Volatility & Risk Forecasting
 Compares GARCH, LSTM, and a dynamically weighted ensemble on S&P 500 returns to show that better realized volatility point forecasts don’t always improve VaR/ES risk estimation.
 [Go to project](./garch-lstm/)
