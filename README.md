@@ -1,3 +1,8 @@
+---
+layout: default
+title: Portfolio
+---
+
 # Markiian Strohyi
 
 Master’s Student in **Quantitative Finance**  

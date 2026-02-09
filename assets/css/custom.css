@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #121212;
     color: #e0e0e0;
@@ -22,16 +26,21 @@ header {
     padding: 2rem;
     text-align: center;
     border-bottom: 2px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 header h1 {
     margin: 0 0 0.5rem 0;
     color: #fff;
+    font-size: 2rem;
 }
 
 header p {
     margin: 0 0 1rem 0;
     color: #b0b0b0;
+    font-size: 0.95rem;
 }
 
 nav {
@@ -55,12 +64,88 @@ nav a:hover {
 
 main {
     max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
 
-main h2, main h3 {
+main h1, main h2, main h3 {
     color: #fff;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+main h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+main ul, main ol {
+    padding-left: 1.5rem;
+}
+
+main li {
+    margin: 0.5rem 0;
+}
+
+main code {
+    background-color: #2a2a2a;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+main pre {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+main pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+main blockquote {
+    border-left: 4px solid #80cbc4;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #b0b0b0;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+main th, main td {
+    border: 1px solid #333;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+main th {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Project links styling */
+main a[href*="github.com"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+main a[href*="github.com"]::after {
+    content: "↗";
+    font-size: 0.8em;
 }
 
 footer {
@@ -70,4 +155,30 @@ footer {
     color: #999;
     border-top: 1px solid #333;
     margin-top: 3rem;
+    background-color: #1a1a1a;
+}
+
+footer a {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    nav {
+        gap: 1rem;
+    }
+    
+    nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
 }
