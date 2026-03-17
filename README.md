@@ -1,4 +1,3 @@
-
 # Markiian Strohyi
 
 Master's Student in **Quantitative Finance**  
@@ -20,6 +19,16 @@ Bachelor's Degree in **Finance, International Investment & Accounting**
 
 ## Projects  
 **[View all projects](https://github.com/markiianstrohyi?tab=repositories)**
+
+### CVA Model with Wrong-Way Risk  
+**Tech Stack:** R  
+- Built a counterparty credit risk framework to quantify the impact of wrong-way risk on CVA via Monte Carlo simulation of 100,000 GBM asset price paths  
+- Computed Black-Scholes MTM exposure at each time step, hazard rate default times, and EPE/PFE exposure profiles  
+- Introduced exposure-default dependence via Gaussian copula — CVA increases monotonically with correlation, reaching 2.56x the independence baseline at ρ=0.75  
+- Extended to t-copula with shared chi-squared scaling to capture tail dependence — CVA reaches 3.73x baseline at the same correlation  
+- **[Go to project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/WWR-CVA)**
+
+---
 
 ### Monte Carlo Value-at-Risk  
 **Tech Stack:** Python  
