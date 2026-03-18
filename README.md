@@ -22,8 +22,8 @@ Aspiring Quantitative Analyst | Risk Modeling | Data Science
 **Tech Stack:** R  
 - Built a counterparty credit risk framework to quantify the impact of wrong-way risk on CVA via Monte Carlo simulation of 100,000 GBM asset price paths  
 - Computed Black-Scholes MTM exposure at each time step, hazard rate default times, and EPE/PFE exposure profiles  
-- Introduced exposure-default dependence via Gaussian copula — CVA increases monotonically with correlation, reaching 2.56x the independence baseline at ρ=0.75  
-- Extended to t-copula with shared chi-squared scaling to capture tail dependence — CVA reaches 3.73x baseline at the same correlation  
+- Introduced exposure-default dependence via Gaussian copula - CVA increases monotonically with correlation, reaching 2.56x the independence baseline at ρ=0.75  
+- Extended to t-copula with shared chi-squared scaling to capture tail dependence - CVA reaches 3.73x baseline at the same correlation  
 - **[Go to project](https://github.com/markiianstrohyi/markiianstrohyi.github.io/tree/main/projects/WWR-CVA)**
 
 ---
