@@ -37,7 +37,7 @@ Aspiring Quantitative Analyst | Risk Modeling | Data Science
 
 ---
 
-### GARCH–LSTM Volatility & Risk Forecasting  
+### GARCH-LSTM Volatility & Risk Forecasting  
 **Tech Stack:** Python, R  
 - Implemented GARCH(1,1), LSTM, and a dynamically weighted GARCH-LSTM ensemble on S&P 500 returns (2004-2024)  
 - Forecasted daily realized volatility and estimated VaR/ES with rolling and walk-forward validation  
